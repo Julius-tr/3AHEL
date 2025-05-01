@@ -27,8 +27,7 @@ while True:
         x1, y1 = lmList1[8][0], lmList1[8][1]
         x2, y2 = lmList1[4][0], lmList1[4][1]
         
-        distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
-
+        distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2
         fan_speed = int(min(distance * 5, 255))
 
         print(f"Distance: {distance} Fan Speed: {fan_speed}")
